@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 const limiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 500 });
 app.use(limiter);
 
-// ─── Error Helper ──────────────────────────────────────────────────────────────
+// ─── Errors Helper ──────────────────────────────────────────────────────────────
 function sendError(res, status, message, detail = null) {
   const payload = { success: false, error: message };
   if (detail) payload.detail = detail;
