@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // ─── Supabase Config (HARDCODED FOR TESTING) ──────────────────────────────────
 const SUPABASE_URL = 'https://hkbohyjkufmdfvawdwlg.supabase.co';
-const SUPABASE_SERVICE_KEY = 'sb_secret_4sj9iSh8jE8i4GLpZBc0tw__JkriFvQ';
+const SUPABASE_SERVICE_KEY = 'sb_secret_uWdwjxtAR_OwjuoqCfywFg_A8zWM2zE';
 const SUPABASE_ANON_KEY = 'sb_publishable_rRZZZaYICMtOWEb8CvPyfw_vLydT_HX';
 const ADMIN_WHATSAPP = '+27634530070'; // Replace with admin WhatsApp
 
