@@ -99,7 +99,7 @@ async function requireAdmin(req, res, next) {
   next();
 }
 
-// Accepts either a valid admin key OR a valid user JWT.
+// Accepts either a valid admin key or a valid user JWT.
 // IMPORTANT: if x-admin-key is present it is checked first and exclusively —
 // we do NOT fall through to JWT auth when a key is supplied but wrong.
 async function requireAuthOrAdmin(req, res, next) {
